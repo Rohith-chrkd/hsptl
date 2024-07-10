@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vancouver</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #333;
+        color: hsl(151, 30%, 29%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: white;
+        width: 100%;
+        
+      }
+      nav img {
+        height: 80px; /* Adjust as needed */
+        margin-right: 20px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      nav ul li {
+        margin-right: 20px;
+      }
+      .book-now-button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  .centered h1,h3{
+    color:hsl(151, 30%, 29%) ;
+  }
+  .content{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .image-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 10px;
+    width: 100%;
+    height: 100px;
+  }
+  .image-container1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .image-container1 h5 {
+    margin-top: 10px;
+    text-align: center;
+    color: hsl(151, 30%, 29%);
+  }
+  .container1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .image {
+    flex: 1;
+  }
+  .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+  .text h2 {
+    margin-top: 0;
+    color: green;
+  }
+  .text p {
+    color: #333;
+    line-height: 1.6;
+  }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://th.bing.com/th/id/OIP.SaCLQdAZ4ufwAFPYe5F_RgHaCE?rs=1&pid=ImgDetMain" alt="Logo"> <!-- Replace with your image URL -->
+        <ul>
+          <li>Home</li>
+          <li>Treatments</li>
+          <li>Testing</li>
+          <li>Get Ti Know Us</li>
+          <li>Contact Us</li>
+        </ul>
+        <button class="book-now-button">Book Now</button>
+      </nav>
+      <div class="image-container">
+        <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/2bfc701c-a23a-4ee1-8cd5-ae9c1aa9e12d/Homepage-edit-First-Image.jpg?format=original" alt="Clinic Image"> <!-- Replace with your image URL -->
+        <div class="centered">
+          <h1>Welcome to Vancouver <br> Naturopathic Clinic</h1>
+          <br>
+          <h3>Your holistic health partner for over 30 years</h3>
+          <br>
+          <button class="book-now-button">Book Now</button>
+        </div>
+      </div>
+      <div class="content">
+
+<div class="image-container">
+    <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423885493-ILCGMF9ST25TS68FFC16/Our+Approach.png?format=300w" alt="Image 1">
+    <h5>OUR APPROACH</h5>
+  </div>
+<div class="image-container">
+    <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423916624-MQXWMZ1TKVTUKJMS5U4L/Principles+of+Naturopathic+Medicine.png?format=300w" alt="Image 1">
+    <h5>PRINCIPLES</h5>
+  </div>
+  
+  
+  <div class="image-container">
+    <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423948240-NFCQ54F93YUT93O0DYKN/Health+Programs.png?format=300w" alt="Image 3">
+    <h5>HEALTH PROBLEMS</h5>
+  </div>
+  
+  <div class="image-container">
+    <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423963367-XDNUPNZFK2SMV3L3818P/Your+First+Visit.png?format=300w" alt="Image 4">
+    <h5>YOUR FIRST VISIT</h5>
+  </div>
+  
+  <div class="image-container">
+    <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/1655423978832-HB9P8L7NNQ7GI14WZV7E/Our+Team.png?format=300w" alt="Image 5">
+    <h5>OUR TEAM</h5>
+  </div>
+      </div>
+<br><br><br><br>
+<div class="container1">
+    <div class="image">
+      <img src="https://images.squarespace-cdn.com/content/v1/6291604274bc7d0c02445423/e793bafd-9d49-4283-8963-48df564cdd50/Vancouver-Naturopathic-Clinic-Clinic-Owners.jpg?format=1500w" alt="Image Description">
+    </div>
+    <div class="text">
+      <h2>Healing Vancouver for over 30 years</h2>
+      <p>As the longest running Naturopathic Clinic in Vancouver, our mission is to help our patients build a healthy foundation that will support them throughout life. We are led by seasoned doctors who believe in the traditional principles and restorative powers of naturopathic medicine. </p>
+      <button class="book-now-button">Learn More</button>
+    </div>
+  </div>
+</body>
+</html>
